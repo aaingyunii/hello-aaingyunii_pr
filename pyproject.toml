@@ -1,6 +1,6 @@
 [project]
 name = "hello-aaingyunii_pr"
-version = "0.2.0"
+version = "0.3.2"
 description = "The Python program I'm distributing f"
 authors = [
     {name = "aaingyunii", email = "dlsrbs98@gmail.com"},
@@ -19,3 +19,13 @@ test = [
     "pytest>=7.4.2",
     "pytest-cov>=4.1.0",
 ]
+
+
+[project.scripts]
+hello-aaingyunii-pic = 'hello_aaingyunii_pr.my:pic'
+hello-aaingyunii-who = 'hello_aaingyunii_pr.who:my_name'
+
+[project.urls]
+"Homepage" = "https://github.com/aaingyunii/hello-aaingyunii_pr"
+"Bug Tracker" = "https://github.com/aaingyunii/hello-aaingyunii_pr/issues"
+

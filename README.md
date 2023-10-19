@@ -1,4 +1,4 @@
-# hello-aaingyunii_pr
+# hello-aaingyunii_pr `0.3.2`
 
 - The Python program I'm distributing for the first time
 
@@ -12,7 +12,7 @@ View at:
 ### USE
 
 ```bash
-$ hello-aaingyunii_pr-pic
+$ hello-aaingyunii-pic
 
 
 
@@ -22,6 +22,13 @@ $ hello-aaingyunii_pr-pic
             ░░░▀▀▀▀░▀▀▀▀░░▀▀▀░▀▀▀░░▀░░
             ░░░░░░░░░░░░░░░░░░░░░░░░░░
             ⎛⎝(•‿•)⎠⎞⎛⎝(•‿•)⎠⎞⎛⎝(•‿•)⎠⎞⎛⎝(•‿•)⎠⎞
+
+```
+
+```bash
+$ hello-aaingyunii-who
+
+My name is aik
 
 ```
 
@@ -44,6 +51,22 @@ $ pytest -s
 $ pytest --cov
 ```
 
+### `pytest` 
+
+- who.py
+```python
+def my_name():
+    print("My name is aik")
+```
+
+- test_who.py
+```python
+from hello_aaingyunii_pr.who import my_name
+
+def test_my_name():
+    my_name()
+```
+
 ### DEPLOY
 
 ```bash
@@ -52,3 +75,7 @@ $ pdm publish
 
 ### REF
 - image to text : https://www.text-image.com/convert/ascii.html
+
+
+
+
