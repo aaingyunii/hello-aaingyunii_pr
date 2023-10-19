@@ -1,4 +1,4 @@
-from hello-aaingyunii_pr.my import pic
+from hello_aaingyunii_pr.my import pic
 
 def test_pic():
     pic()
