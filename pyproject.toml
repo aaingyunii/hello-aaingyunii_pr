@@ -1,6 +1,6 @@
 [project]
 name = "hello-aaingyunii_pr"
-version = "0.1.0"
+version = "0.2.0"
 description = "The Python program I'm distributing f"
 authors = [
     {name = "aaingyunii", email = "dlsrbs98@gmail.com"},
