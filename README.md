@@ -1,4 +1,4 @@
-# hello-aaingyunii_pr `0.3.2`
+# hello-aaingyunii_pr `1.0.0`
 
 - The Python program I'm distributing for the first time
 
