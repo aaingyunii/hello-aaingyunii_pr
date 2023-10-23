@@ -1,4 +1,4 @@
-# hello-aaingyunii_pr `1.0.0`
+# hello-aaingyunii_pr `1.1.0`
 
 - The Python program I'm distributing for the first time
 
@@ -36,8 +36,9 @@ My name is aik
 ```bash
 $ ha-weather
 
+현재 위치 : 동작구 신대방2동 
 현재 날씨: 맑음
-현재 온도: 16.9°
+현재 온도: 17.1°
 
 ```
 
