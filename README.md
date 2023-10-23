@@ -32,6 +32,15 @@ My name is aik
 
 ```
 
+
+```bash
+$ ha-weather
+
+현재 날씨: 맑음
+현재 온도: 16.9°
+
+```
+
 ### DEV
 
 ```bash
@@ -67,6 +76,15 @@ def test_my_name():
     my_name()
 ```
 
+- test_weather.py 
+```python
+from hello_aaingyunii_pr.weather_show import weather_show
+
+def test_weather():
+    weather_show()
+    assert True
+```
+
 ### DEPLOY
 
 ```bash
@@ -75,6 +93,7 @@ $ pdm publish
 
 ### REF
 - image to text : https://www.text-image.com/convert/ascii.html
+- weather data : https://weather.naver.com/
 
 
 
